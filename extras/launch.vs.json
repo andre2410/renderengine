@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+
+    {
+        "args": ["person.obj", "earthobj.obj", "Ant_Mesh.obj"],
+        "type": "default",
+        "project": "CMakeLists.txt",
+        "projectTarget": "Skeleton.exe",
+        "currentDir": "${workspaceRoot}/Skeleton",
+        "name": "Skeleton.exe"
+    }
+  ]
+}
