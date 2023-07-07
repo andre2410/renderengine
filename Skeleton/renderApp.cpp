@@ -3,6 +3,7 @@
  *
  * by Stefanie Zollmann
  *
+ * edited by Andrew Goh 
  * Basic model loading with assimp library
  *
  */
@@ -43,8 +44,9 @@ using namespace glm;
 
 #include <iostream>
 
-
-
+/**
+* Function to launch window of render engine
+*/
 bool initWindow(std::string windowName){
     
     // Initialise GLFW
@@ -74,7 +76,9 @@ bool initWindow(std::string windowName){
     
 }
 
-
+/**
+* Main function that runs render engine
+*/
 int main( int argc, char *argv[] )
 {
     
@@ -208,7 +212,6 @@ int main( int argc, char *argv[] )
         if (myScene->getRenderMode() == 2) {//box filter
             // ---------------------------------------------
              // Render to Texture - specific code begins here
-             // DELETE IF NOT WORKING
              // ---------------------------------------------
              //The framebuffer, which regroups 0, 1, or more textures, and 0 or 1 depth buffer.
             GLuint FramebufferName = 0;
