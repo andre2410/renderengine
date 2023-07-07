@@ -25,6 +25,8 @@ To run the program, please use your favourite IDE that supports C++ and ensure y
 Ensure that you have the OpenGL library installed.
 Also, ensure that the object files you want to use are in the skeleton folder.
 
+Select Skeleton.exe in your IDE and run it. A terminal and blue window will appear when it is running successfully.
+
 The program can also be run from the terminal window. Please set the directory where the folder containing both the common and skeleton folder is by using the cd command, followed by the arguments you wish to include.
 E.g: ./build/Skeleton person.obj Ant_Mesh.obj
 
